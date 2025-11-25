@@ -31,7 +31,16 @@ np.linspace(0,1,5) # 前俩参数是区间范围，后面参数是输出样本�
 np.random.rand(2,4) #2行4列
 
 
-#在Numpy中，
+#在Numpy中，数组默认的数据类型是64位浮点数
+#但在创建数组时，可以通过dtype指定其他数据类型
+a = np.zeros((4,2) , dtype = np.int32)
+"""
+整形 np.int8/16/32/64
+ 无符号整型np.uint8/16/32/64
+ np.float32/64boolstr
+浮点数布尔值字符串
+"""
+
 
 
 ```
