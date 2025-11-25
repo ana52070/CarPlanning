@@ -173,6 +173,4 @@ im_r = im[:,:,0]
 Image.fromarray(im_r).show()
 
 
-
-
 ```
