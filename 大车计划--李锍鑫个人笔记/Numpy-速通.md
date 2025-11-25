@@ -71,6 +71,21 @@ a @ b
 
 
 #np.sqrt对所有的数依次求平方根
-np
+np.sqrt(a)
+>>>
+
+#使用sin、cos进行三角函数运算
+np.sin(a)
+
+np.cos(a)
+
+
+#或者log、power进行对数、指数运算等等
+np.log(a)
+
+np.power(a,2)
+
+
+
 
 ```
