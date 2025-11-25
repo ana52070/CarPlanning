@@ -113,6 +113,16 @@ a.sum()
 
 
 
-#mean()、median()会返回数据的平均值、zhong'zhi
+#mean()、median()会返回数据的平均值、中位数
+a.mean()
+a.median()
 
+
+#var()、std()会返回数据的方差、标准差等
+a.var()
+a.std()
+
+
+
+#获取矩阵中某个元素的数可以使用p'y
 ```
