@@ -97,6 +97,22 @@ a * 5
 
 
 #还可以通过min()、max()来找最小值和最大值
+a.array([1,2,3,4,5])
+a.max()
+a.min()
 
+
+#argmin和argmax会返回最小或者最大元素所在的索引
+a.argmin()
+
+a.argmax()
+
+
+#sum返回所有数据的总共
+a.sum()
+
+
+
+#mean()、median()会返回数据的平均值、zhong'zhi
 
 ```
