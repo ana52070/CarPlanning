@@ -168,6 +168,11 @@ im.shape()
 im[100,100]
 >>>array([23,24,10],dtype=uint8)
 
-#单独提取出所有像素点的ho
+#单独提取出所有像素点的红色分量
+im_r = im[:,:,0]
+Image.fromarray(im_r).show()
+
+
+
 
 ```
