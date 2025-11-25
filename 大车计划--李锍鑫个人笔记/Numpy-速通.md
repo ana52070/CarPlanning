@@ -35,12 +35,15 @@ np.random.rand(2,4) #2行4列
 #但在创建数组时，可以通过dtype指定其他数据类型
 a = np.zeros((4,2) , dtype = np.int32)
 """
-整形 np.int8/16/32/64
- 无符号整型np.uint8/16/32/64
- np.float32/64boolstr
-浮点数布尔值字符串
+整形        np.int8/16/32/64
+无符号整型   np.uint8/16/32/64
+浮点数      np.float32/64
+布尔值      bool
+字符串      str
 """
-
+#对于现有的数组可以通过astype来转换数据类型
+a = np.zeros((2,4))
+b = a.astype(int)
 
 
 ```
