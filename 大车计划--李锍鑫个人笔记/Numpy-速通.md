@@ -152,13 +152,22 @@ a[0:9:2]
 
 ```python
 form PIL import Image
+import numpy as np
 
 #使用PIL库读取图片文件
 im = Image.open('doge.jpg')
 im.show()
 
 
-#通过np.array将图片转换为一个n'p
+#通过np.array将图片转换为一个np数组
+im = np.array(im)
 
+im.shape()
+
+#可以通过下标访问某个像素点的颜色
+im[100,100]
+>>>array([23,24,10],dtype=uint8)
+
+#单独提取出所有像素点的ho
 
 ```
