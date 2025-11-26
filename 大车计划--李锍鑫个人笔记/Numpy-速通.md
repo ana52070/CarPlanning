@@ -130,16 +130,20 @@ a.sum()
 >>>np.int64(15)
 
 
-#mean()、median()会返回数据的平均值、中位数
+#mean()、median()会返回数据的平均值
 a.mean()
 >>>np.float64(3.0)
 
-a.median()
->>>
+
+
 
 #var()、std()会返回数据的方差、标准差等
 a.var()
+>>>np.float64(2.0)
+
 a.std()
+>>>np.float64(1.4142135623730951)
+
 
 
 
