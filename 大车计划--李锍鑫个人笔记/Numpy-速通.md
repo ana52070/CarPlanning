@@ -120,19 +120,22 @@ a.min()
 
 #argmin和argmax会返回最小或者最大元素所在的索引
 a.argmin()
+>>>np.int64(0)
 
 a.argmax()
-
+>>>np.int64(4)
 
 #sum返回所有数据的总共
 a.sum()
-
+>>>np.int64(15)
 
 
 #mean()、median()会返回数据的平均值、中位数
 a.mean()
-a.median()
+>>>np.float64(3.0)
 
+a.median()
+>>>
 
 #var()、std()会返回数据的方差、标准差等
 a.var()
